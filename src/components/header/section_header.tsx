@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { LiaCopyright, LiaGithub, LiaEnvelope, LiaWhatsapp, LiaLinkedinIn  } from 'react-icons/lia';
 
 
 export default function SectionHeader() {    
@@ -6,6 +7,10 @@ export default function SectionHeader() {
         <>
             <header id='header' className="h-20 w-full flex items-center justify-end px-20 border bg-neutral-color-silver-chalice-50 relative shadow-lg">
                 <div>
+                    <div className="flex flex-row gap-4 text-2xl text-neutral-color-silver-chalice-900 ">
+                        <a href="https://github.com/Jdel-Campos" target="_blank"> <LiaGithub className="hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500"/> </a>
+                        <a href="https://www.linkedin.com/in/jdel-campos/" target="_blank"> <LiaLinkedinIn className="hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500"/> </a>
+                    </div>
                     <nav className="flex justify-end items-end z-50">
                         <ul className="flex flex-row gap-8 justify-end items-end text-text-color-masala-500 ">
                             <li className="border-neutral-color-silver-chalice-50 hover:text-neutral-color-silver-chalice-400 border-b hover:border-neutral-color-silver-chalice-400">
@@ -16,23 +21,16 @@ export default function SectionHeader() {
                                 </Link>
                             </li>
                             <li className="border-neutral-color-silver-chalice-50 hover:text-neutral-color-silver-chalice-400 border-b hover:border-neutral-color-silver-chalice-400">
-                                <Link href='#skill'>
+                                <Link href='#about'>
                                     <div> 
-                                        <p> Skill </p>
+                                        <p> About me / Skill </p>
                                     </div>
                                 </Link>
                             </li>
                             <li className="border-neutral-color-silver-chalice-50 hover:text-neutral-color-silver-chalice-400 border-b hover:border-neutral-color-silver-chalice-400">
                                 <Link href='#project'>
                                     <div> 
-                                        <p> Project </p>
-                                    </div>
-                                </Link>
-                            </li>
-                            <li className="border-neutral-color-silver-chalice-50 hover:text-neutral-color-silver-chalice-400 border-b hover:border-neutral-color-silver-chalice-400">
-                                <Link href='/about_me'>
-                                    <div> 
-                                        <p> About me </p>
+                                        <p> Projects </p>
                                     </div>
                                 </Link>
                             </li>
