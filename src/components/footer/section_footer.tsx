@@ -3,7 +3,7 @@ import { LiaCopyright, LiaGithub, LiaEnvelope, LiaWhatsapp, LiaLinkedinIn  } fro
 
 export default function SectionFooter() {    
     return (
-        <div className="px-20 bg-brand-background">
+        <div className="px-20 sm:p-none bg-brand-background">
             <div className="flex flex-row justify-between items-center h-[75px] border-t-2 border-text-color-masala-400 text-brand-primary">
                 <div className="flex flex-row items-center gap-2">
                     <LiaCopyright className="text-base"/>

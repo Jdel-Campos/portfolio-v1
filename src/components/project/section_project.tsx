@@ -13,7 +13,7 @@ export default function SectionProject() {
                 <h3 className="font-semibold text-xl decoration-brand-text text-brand-primary"> Meus Projetos </h3>
             </div>
             <div className="flex flex-wrap justify-center gap-7">
-                    <div className='w-[580px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href={'GitHubLink'} >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -25,7 +25,6 @@ export default function SectionProject() {
                         <div className='flex flex-col items-center gap-8'>
                             <div className="flex gap-2 justify-center relative">
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> My Portfolio </h3>
-                                <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
                             <p className='text-justify text-sm text-brand-text'>Nesse projeto, procurei criar uma experiência simples e minimalista, transmitindo meu estilo e nível de trabalho. Evitei a sobrecarga visual mantendo uma abordagem limpa.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
@@ -37,7 +36,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[580px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/WeGreen/WeGreen_ProjetoFinal.git" target="_blank">
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -49,7 +48,6 @@ export default function SectionProject() {
                         <div className='flex flex-col items-center gap-8'>
                             <div className="flex gap-2 justify-center relative">
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> WeGreen </h3>
-                                <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
                             <p className='text-justify text-sm text-brand-text'>Desempenhei o papel de Scrum Master na criação de um sistema de gerenciamento para uma horta comunitária, incluindo um blog educacional.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
@@ -62,7 +60,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[580px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/kenzie-burguer-v2-template-jdel-campos.git" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -74,7 +72,6 @@ export default function SectionProject() {
                         <div className='flex flex-col items-center gap-8'>
                             <div className="flex gap-2 justify-center relative">
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> Kenzie Burger V2 </h3>
-                                <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
                             <p className='text-justify text-sm text-brand-text'>Essa foi a segunda versão do Kenzie Burger, na qual o sistema de login e verificação de token para navegação do cliente foi implementado.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
@@ -88,7 +85,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[580px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-jdel-campos.git" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -100,7 +97,6 @@ export default function SectionProject() {
                         <div className='flex flex-col items-center gap-8'>
                             <div className="flex gap-2 justify-center relative">
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> Kenzie Hub </h3>
-                                <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
                             <p className='text-justify text-sm text-brand-text'>Desenvolvi um sistema de controle de registro educacional, permitindo que as habilidades e os níveis de experiência dos alunos fossem registrados.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
@@ -114,7 +110,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[580px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-jdel_campos.git" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -126,7 +122,6 @@ export default function SectionProject() {
                         <div className='flex flex-col items-center gap-8'>
                             <div className="flex gap-2 justify-center relative">
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> NuKenzie </h3>
-                                <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
                             <p className='text-justify text-sm text-brand-text'>Criei um sistema de controle financeiro para gerenciar minhas receitas e despesas.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
@@ -137,7 +132,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[580px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-jdel-campos.git" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -149,7 +144,6 @@ export default function SectionProject() {
                         <div className='flex flex-col items-center gap-8'>
                             <div className="flex gap-2 justify-center relative">
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> Kenzie&apos;s Hamburger </h3>
-                                <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
                             <p className='text-justify text-sm text-brand-text'>A primeira parte do projeto Kenzie Hamburger foi desenvolvida, onde todo o layout e a lógica principal foram desenvolvidos.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>

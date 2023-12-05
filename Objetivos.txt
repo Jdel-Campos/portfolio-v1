@@ -1,5 +1,6 @@
-1° Colocar a parte dos projetos dinâmicos, apara que eles fiquem um ao lado do outro;
-2° Colocar essa versão do portfolio como folha unica e na proxima versão colocar do jeito que eu queria;
-3° Trazer o  meu curriculo para a primeira página da aplicação, tirando assim o a página de about;
-4° Colocar todos os meus projetos na primeira página tirando assim a página de projects;
-5° Tirar o banner que coloquei dos projetos na primeira parte do projeto
+( ok ) Colocar a parte dos projetos dinâmicos, apara que eles fiquem um ao lado do outro;
+( ok ) Colocar essa versão do portfolio como folha unica e na proxima versão colocar do jeito que eu queria;
+( ok ) Trazer o  meu curriculo para a primeira página da aplicação, tirando assim o a página de about;
+( ok ) Colocar todos os meus projetos na primeira página tirando assim a página de projects;
+( ok ) Tirar o banner que coloquei dos projetos na primeira parte do projeto;
+(  ) Fazer a reponsividade do portfolio, pois ele está configurado apenas para desktop;

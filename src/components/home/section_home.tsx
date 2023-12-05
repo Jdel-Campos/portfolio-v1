@@ -6,7 +6,7 @@ export default function SectionHome() {
         <div id="home" className="pt-[220px] pb-[150px] px-20 h-screen flex justify-center items-center bg-brand-background">
             <div className="flex flex-col justify-between h-[330px] items-center">
                 <div className="flex flex-col gap-10 justify-center items-center">
-                    <h2 className="font-bold italic text-5xl text-brand-primary"> FullStack Developer </h2>
+                    <h2 className="font-bold italic text-5xl sm:text-3xl sm:text-justify text-brand-primary "> FullStack Developer </h2>
                     <p className="px-20 text-xl text-center text-brand-text"> Eu sou <span className="font-semibold text-brand-secondary text-center">Jardel Campos</span>, e estou aqui para mostrar meu trabalho. Se você tiver alguma dúvida ou quiser discutir um projeto, sinta-se à vontade para entrar em contato. Vamos criar algo incrível juntos! </p>
                 </div>
                 <div>
