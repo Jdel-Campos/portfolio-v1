@@ -10,7 +10,7 @@ export default function SectionProject() {
     return (
         <div id="project" className=" flex flex-col items-center py-[90px] px-20 gap-8 bg-brand-background">
             <div className=" flex flex-row items-baseline justify-between w-full">
-                <h3 className="font-semibold text-xl decoration-brand-text text-brand-primary"> Latest projects </h3>
+                <h3 className="font-semibold text-xl decoration-brand-text text-brand-primary"> Meus Projetos </h3>
             </div>
             <div className="flex flex-wrap justify-center gap-7">
                     <div className='w-[580px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
@@ -27,7 +27,7 @@ export default function SectionProject() {
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> My Portfolio </h3>
                                 <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
-                            <p className='text-justify text-sm text-brand-text'>In this project, I sought to create a simple and minimalist experience, conveying my style and level of work. I avoided visual overload by keeping a clean approach. I&apos;ve directed technical details to specific pages, serving both those interested in detailed information and those wanting an overview.</p>
+                            <p className='text-justify text-sm text-brand-text'>Nesse projeto, procurei criar uma experiência simples e minimalista, transmitindo meu estilo e nível de trabalho. Evitei a sobrecarga visual mantendo uma abordagem limpa.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
                                 <p >React.js</p>
                                 <p >Next.js</p>
@@ -51,7 +51,7 @@ export default function SectionProject() {
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> WeGreen </h3>
                                 <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
-                            <p className='text-justify text-sm text-brand-text'>I played the role of Scrum Master in the creation of a management system for a community garden, including an educational blog.</p>
+                            <p className='text-justify text-sm text-brand-text'>Desempenhei o papel de Scrum Master na criação de um sistema de gerenciamento para uma horta comunitária, incluindo um blog educacional.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
                                 <p >React.js</p>
                                 <p >Axios</p>
@@ -76,7 +76,7 @@ export default function SectionProject() {
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> Kenzie Burger V2 </h3>
                                 <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
-                            <p className='text-justify text-sm text-brand-text'>This was the second version of Kenzie Burger, where the login and token verification system for customer navigation was implemented.</p>
+                            <p className='text-justify text-sm text-brand-text'>Essa foi a segunda versão do Kenzie Burger, na qual o sistema de login e verificação de token para navegação do cliente foi implementado.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
                                 <p >React.js</p>
                                 <p >Axios</p>
@@ -102,7 +102,7 @@ export default function SectionProject() {
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> Kenzie Hub </h3>
                                 <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
-                            <p className='text-justify text-sm text-brand-text'>I developed an educational registration control system, allowing students&apos; skills and levels of experience to be recorded.</p>
+                            <p className='text-justify text-sm text-brand-text'>Desenvolvi um sistema de controle de registro educacional, permitindo que as habilidades e os níveis de experiência dos alunos fossem registrados.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
                                 <p >React.js</p>
                                 <p >Axios</p>
@@ -128,7 +128,7 @@ export default function SectionProject() {
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> NuKenzie </h3>
                                 <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
-                            <p className='text-justify text-sm text-brand-text'>I created a financial control system to manage my income and expenses.</p>
+                            <p className='text-justify text-sm text-brand-text'>Criei um sistema de controle financeiro para gerenciar minhas receitas e despesas.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
                                 <p >React.js</p>
                                 <p >React-dom</p>
@@ -151,7 +151,7 @@ export default function SectionProject() {
                                 <h3 className='text-justify font-semibold text-xl z-20 text-brand-primary'> Kenzie&apos;s Hamburger </h3>
                                 <div className="border absolute w-32 h-3 top-4 -left-3 border-brand-accent bg-brand-accent opacity-50"></div>
                             </div>
-                            <p className='text-justify text-sm text-brand-text'>The first part of the Kenzie Hamburger project was developed, where the entire layout and the main logic were developed.</p>
+                            <p className='text-justify text-sm text-brand-text'>A primeira parte do projeto Kenzie Hamburger foi desenvolvida, onde todo o layout e a lógica principal foram desenvolvidos.</p>
                             <div className='flex w-full flex-wrap justify-center gap-4 text-justify text-sm italic font-bold text-brand-primary'>
                                 <p >React.js</p>
                                 <p >Axios</p>

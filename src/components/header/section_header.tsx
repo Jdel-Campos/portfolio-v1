@@ -6,8 +6,8 @@ import { LiaGithub, LiaLinkedinIn  } from 'react-icons/lia';
 
 export default function SectionHeader() {    
     return (
-        <header id='header' className="h-20 w-full flex items-center justify-end px-20 border bg-neutral-color-silver-chalice-50 shadow-lg fixed z-50">
-                <div className='w-full flex flex-row justify-between'>
+        <header id='header' className="h-20 w-full flex items-center justify-end md:px-4 px-20 border bg-neutral-color-silver-chalice-50 shadow-lg fixed z-50">
+                <div className='w-full flex flex-row justify-between sm:flex-col'>
                     <div className="flex flex-row gap-4 text-2xl text-neutral-color-silver-chalice-900 ">
                         <a href="https://github.com/Jdel-Campos" target="_blank"> <LiaGithub className="hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500"/> </a>
                         <a href="https://www.linkedin.com/in/jdel-campos/" target="_blank"> <LiaLinkedinIn className="hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500"/> </a>
