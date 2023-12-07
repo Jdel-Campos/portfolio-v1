@@ -17,7 +17,7 @@ export default function SectionProject() {
                             <Link href="https://github.com/Jdel-Campos/portfolio-v1.git" target="_blank">
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
-                            <Link href="https://portfolio-v1-rho-eight.vercel.app/" target="_blank" >
+                            <Link href="https://portfolio-v1-pi-vert.vercel.app//" target="_blank" >
                                 <SiAirplayvideo className=' text-xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
                         </div>
