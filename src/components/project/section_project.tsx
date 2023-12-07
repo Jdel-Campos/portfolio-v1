@@ -14,10 +14,10 @@ export default function SectionProject() {
             <div className="flex w-full flex-wrap justify-center gap-7">
                     <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4 border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
-                            <Link href={'GitHubLink'} >
+                            <Link href="https://github.com/Jdel-Campos/portfolio-v1.git" target="_blank">
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
-                            <Link href={'VercelLink'} >
+                            <Link href="https://portfolio-v1-rho-eight.vercel.app/" target="_blank" >
                                 <SiAirplayvideo className=' text-xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
                         </div>
@@ -61,10 +61,10 @@ export default function SectionProject() {
                     </div>
                     <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4  border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
-                            <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/kenzie-burguer-v2-template-jdel-campos.git" >
+                            <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/kenzie-burguer-v2-template-jdel-campos.git" target="_blank" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
-                            <Link href="https://kenzie-burguer-v2-template-jdel-campos.vercel.app/" >
+                            <Link href="https://kenzie-burguer-v2-template-jdel-campos.vercel.app/" target="_blank" >
                                 <SiAirplayvideo className=' text-xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
                         </div>
@@ -86,10 +86,10 @@ export default function SectionProject() {
                     </div>
                     <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4  border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
-                            <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-jdel-campos.git" >
+                            <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-jdel-campos.git" target="_blank" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
-                            <Link href="https://react-entrega-kenzie-hub-jdel-campos.vercel.app/" >
+                            <Link href="https://react-entrega-kenzie-hub-jdel-campos.vercel.app/" target="_blank" >
                                 <SiAirplayvideo className=' text-xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
                         </div>
@@ -111,10 +111,10 @@ export default function SectionProject() {
                     </div>
                     <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4  border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
-                            <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-jdel_campos.git" >
+                            <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-jdel_campos.git" target="_blank" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
-                            <Link href="https://react-entrega-s1-template-nu-kenzie-jdel-campos.vercel.app/" >
+                            <Link href="https://react-entrega-s1-template-nu-kenzie-jdel-campos.vercel.app/" target="_blank" >
                                 <SiAirplayvideo className=' text-xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
                         </div>
@@ -133,10 +133,10 @@ export default function SectionProject() {
                     </div>
                     <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4  border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
-                            <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-jdel-campos.git" >
+                            <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-jdel-campos.git" target="_blank" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
-                            <Link href="https://react-entrega-template-hamburgueria-da-kenzie-jdel-campos.vercel.app/" >
+                            <Link href="https://react-entrega-template-hamburgueria-da-kenzie-jdel-campos.vercel.app/" target="_blank" >
                                 <SiAirplayvideo className=' text-xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
                             </Link>
                         </div>

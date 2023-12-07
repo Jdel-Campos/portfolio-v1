@@ -50,7 +50,7 @@ export default function SectionAboutSkill() {
                 <div className=" flex flex-col items-center mobile:px-8 pt-16 pb-20 bg-text-color-masala-50">
                     <p className="font-semibold mobile:text-sm text-lg underline decoration-brand-text text-brand-text"> Você gostaria de ver o currículo? </p>
                     <div className="flex gap-2 hover:opacity-75">
-                            <Link href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:8f6d39c3-2b40-3ea1-bb3c-060524e34a20" className="mobile:text-xs text-sm font-medium italic text-brand-secondary target"> Clique aqui. </Link>
+                            <Link href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:b5e144b8-15fd-3d51-b965-375d4970c7f6" className="mobile:text-xs text-sm font-medium italic text-brand-secondary" target="_blank"> Clique aqui. </Link>
                             <GrDocumentDownload className="text-brand-secondary mobile:text-xs "/>
                     </div>
                 </div>
