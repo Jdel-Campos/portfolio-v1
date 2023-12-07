@@ -6,14 +6,13 @@ import { SiAirplayvideo } from 'react-icons/si';
 
 
 export default function SectionProject() {
-  
     return (
-        <div id="project" className=" flex flex-col items-center py-[90px] px-20 gap-8 bg-brand-background">
+        <div id="project" className=" flex flex-col items-center py-[90px] mobile:px-4 tablet:px-16 px-20 gap-8 bg-brand-background">
             <div className=" flex flex-row items-baseline justify-between w-full">
                 <h3 className="font-semibold text-xl decoration-brand-text text-brand-primary"> Meus Projetos </h3>
             </div>
-            <div className="flex flex-wrap justify-center gap-7">
-                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+            <div className="flex w-full flex-wrap justify-center gap-7">
+                    <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4 border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href={'GitHubLink'} >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -36,7 +35,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4  border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/WeGreen/WeGreen_ProjetoFinal.git" target="_blank">
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -60,7 +59,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4  border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/kenzie-burguer-v2-template-jdel-campos.git" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -85,7 +84,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4  border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-kenzie-hub-jdel-campos.git" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -110,7 +109,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4  border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s1-template-nu-kenzie-jdel_campos.git" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>
@@ -132,7 +131,7 @@ export default function SectionProject() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-[555px] border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
+                    <div className='mobile-w-full tablet:w-full w-[555px] mobile:px-4  border-2 border-text-color-masala-400 p-8 pt-16 flex flex-col gap-4 rounded-2xl relative'>
                         <div className='flex flex-row w-full items-center justify-end gap-10 absolute top-8 right-8'>
                             <Link href="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-template-hamburgueria-da-kenzie-jdel-campos.git" >
                                 <LiaGithub className='text-2xl text-neutral-color-silver-chalice-900 hover:text-neutral-color-silver-chalice-500 hover:border-b hover:border-neutral-color-silver-chalice-500'/>

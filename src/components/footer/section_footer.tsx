@@ -3,8 +3,8 @@ import { LiaCopyright, LiaGithub, LiaEnvelope, LiaWhatsapp, LiaLinkedinIn  } fro
 
 export default function SectionFooter() {    
     return (
-        <div className="px-20 sm:p-none bg-brand-background">
-            <div className="flex flex-row justify-between items-center h-[75px] border-t-2 border-text-color-masala-400 text-brand-primary">
+        <div className="px-20 mobile:px-0 tablet:px-16 mobile:py-4 bg-brand-background">
+            <div className="mobile:flex-col mobile:py-8 mobile:h-[140px] flex flex-row justify-between items-center h-[75px] border-t-2 border-text-color-masala-400 text-brand-primary">
                 <div className="flex flex-row items-center gap-2">
                     <LiaCopyright className="text-base"/>
                     <p className="text-sm"> 2023 - Designed & Built by Jardel Campos </p>
